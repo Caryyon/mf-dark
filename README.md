@@ -35,4 +35,9 @@ then run the dev server
 
 this will get you going on port:666
 
+### ideas
 
+This concept is to utilize the module imports of deno for the cachable imports of actual nano-apps.
+There is a space to be explored with the way deno does import_maps. This would eleviate the npm deps
+issues we fight, and allowing for a cached and fallbackable deps system. import once and cache for
+future nano-apps.
